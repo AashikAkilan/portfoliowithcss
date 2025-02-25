@@ -1,0 +1,250 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: linear-gradient(135deg, #00008B, #1E90FF);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ADD8E6;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Home Section */
+#home {
+    background: linear-gradient(135deg, #1E90FF, #00008B);
+    padding: 80px 20px;
+}
+
+#home h2 {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+#home h3 {
+    font-size: 1.8em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: #ffffff;
+}
+
+/* Button */
+button {
+    background: #00008B;
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #1E90FF;
+}
+
+/* About Section */
+#about {
+    background-color: #E0FFFF;
+}
+
+
+/* Project Section */
+#projects {
+    background-color: #F0F8FF;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-box {
+    background: linear-gradient(135deg, #1E90FF, #00008B);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    color: #fff;
+}
+
+.project-box h3 {
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.project-box p {
+    font-size: 1.1em;
+    color: #E0FFFF;
+}
+
+.project-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Skills Section */
+.skills-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skills-subtitle {
+    font-size: 24px;
+    color: #00008B;
+    margin-bottom: 10px;
+}
+
+.skills-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.skills-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills-name {
+    background: linear-gradient(135deg, #00008B, #1E90FF);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.skills-name:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #F0F8FF;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact-box {
+    background: #ffffff;
+    padding: 30px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input:focus {
+    border-color: #00008B;
+    outline: none;
+}
+
+/* Button */
+button {
+    background: linear-gradient(135deg, #00008B, #1E90FF);
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #1E90FF;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #00008B, #1E90FF);
+    color: white;
+    font-size: 1em;
+    margin-top: 20px;
+}
